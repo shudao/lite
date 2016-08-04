@@ -1,4 +1,4 @@
-package com.shudao.lite.web.config;
+package app.config;
 
 import org.javalite.activeweb.AppContext;
 import org.javalite.activeweb.Bootstrap;

@@ -5,11 +5,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <import resource="spring-db.xml"/>
+<!--    <import resource="spring-db.xml"/>-->
 
-    <bean class="com.shudao.lite.web.utils.SpringContextHolder" lazy-init="false"/>
+    <bean class="app.utils.SpringContextHolder" lazy-init="false"/>
 
-    <util:properties id="env" location="env.properties"/>
+    <util:properties id="env" location="classpath:env.properties"/>
 
 
 </beans>

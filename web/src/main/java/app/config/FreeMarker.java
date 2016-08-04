@@ -1,4 +1,4 @@
-package com.shudao.lite.web.config;
+package app.config;
 
 import freemarker.ext.beans.BeansWrapper;
 import org.javalite.activeweb.freemarker.AbstractFreeMarkerConfig;

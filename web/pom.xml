@@ -11,5 +11,41 @@
     <packaging>war</packaging>
     <artifactId>lite-web</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.javalite</groupId>
+            <artifactId>activeweb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>asm</groupId>
+            <artifactId>asm</artifactId>
+        </dependency>
+
+    </dependencies>
+
 
 </project>

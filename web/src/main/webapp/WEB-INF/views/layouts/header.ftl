@@ -1,21 +1,23 @@
-<!-- jQuery -->
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
 
-<script src="/js/jquery.validate.min.js" ></script>
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li>
+                    <a href="/"><i class="fa fa-dashboard fa-fw"></i>看板</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-table fa-fw"></i>数据</a>
+                    <ul class="nav nav-second-level">
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<!-- Metis Menu Plugin JavaScript -->
-<script src="/bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-
-
-<!-- Flot Charts JavaScript -->
-<script src="/bower_components/flot/jquery.flot.js"></script>
-
-<script src="/bower_components/flot/jquery.flot.resize.js"></script>
-
-<@yield to="js_define"/>
-
+                        <li>
+                            <a href="/home/appMetrics">业务指标</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 

@@ -1,7 +1,6 @@
-package com.shudao.lite.web.controller;
+package app.controllers;
 
 import org.javalite.activeweb.AppController;
-import org.javalite.activeweb.annotations.RESTful;
 
 /**
  * Created by dali on 16/6/28.
@@ -9,6 +8,6 @@ import org.javalite.activeweb.annotations.RESTful;
 public class LoginController extends AppController{
 
     public void login(){
-
+        render().noLayout();
     }
 }
